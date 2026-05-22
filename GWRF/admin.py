@@ -1,4 +1,4 @@
-from django.db contrib import admin
-from .models import teacher
+from django.db import admin
+from GWRF.models import teacher
 admin.site.register(teacher)
 
